@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+<head>
+<title>webshop - vivikaartjes</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Literata">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/viviweyerswebshop.css">
+</head>
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+	<div class="w3-bar w3-white" id="myNavbar">
+	<a href="#home" class="w3-bar-item w3-button w3-hover-opacity w3-text-vividarkred">VIVI WEYERS - illustratie & vivikaartjes</a>
+    	
+       	<!-- Right-sided navbar links -->
+    	<div class="w3-right w3-hide-small">
+     		<a href="index.html#about" class="w3-bar-item w3-button w3-hover-opacity">over Vivi</a>
+       		<a href="index.html#portfolio" class="w3-bar-item w3-button w3-hover-opacity"> wat ik doe</a>
+       		<a href="portfolio.html" class="w3-bar-item w3-button w3-hover-opacity">portfolio</a>
+      		<a href="index.html#samenwerken" class="w3-bar-item w3-button w3-hover-opacity">Samenwerken</a>
+		<a href="index.html#agenda" class="w3-bar-item w3-button w3-hover-opacity">agenda</a>
+        	<a href="#contact" class="w3-bar-item w3-button w3-hover-opacity">contact</a>
+   	</div>
+
+    	<!-- Hide right-floated links on small screens and replace them with a menu icon -->
+	<a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+  	</div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+	<a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-medium w3-padding-16"> X SLUITEN </a>
+	<a href="index.html#about" class="w3-bar-item w3-button">Over Vivi</a>
+       	<a href="index.html#portfolio" class="w3-bar-item w3-button"> Wat ik doe</a>
+       	<a href="portfolio.html" class="w3-bar-item w3-button">Portfolio</a>
+      	<a href="index.html#samenwerken" class="w3-bar-item w3-button">Samenwerken</a>
+	<a href="index.html#agenda" class="w3-bar-item w3-button">agenda</a>
+       	<a href="#contact" class="w3-bar-item w3-button">Contact</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-center" id="home">
+    	<div class="w3-padding w3-display-right">
+    		<div class="w3-container w3-margin">
+  	 	<img src="images/logo_viviweyers_contact.png" alt="logo vivi" style="width:100%;max-width:320px">
+  		<p class="w3-xlarge">Nog een beetje geduld! <br> Hier komt een webshop met al je <br> favoriete VIVI-kaartjes en zoveel meer...</p>
+        </div> 
+    </div>
+</header>
+
+
+<!-- About Section -->
+<div class="w3-container w3-content" style="max-width:900px; padding:80px 16px 20px 16px;">
+	<div class="w3-center">
+	<p>Achter de schermen zijn we volop aan het werken aan een webshop.<br> Ben je razend benieuwd? Neem hieronder een kijkje.</p>
+     	</div>
+</div>
+  
+
+ <!-- Slideshow -->
+ <div class="w3-container w3-content" style="max-width:900px; padding:20px 16px 20px 16px;">
+	
+	<div class="w3-display-container mySlides">
+	<img src="images/webshop_varkenenvogel.jpg" alt="voorbeeld vivikaartje varken met vogel" style="width:100%;margin-bottom:-6px">
+	</div>
+
+    
+   	<div class="w3-display-container mySlides">
+   	<img src="images/webshop_lammetjes.jpg" alt="voorbeeld vivikaartje lammetjes" style="width:100%;margin-bottom:-6px">
+ 	</div>
+
+    
+	<div class="w3-display-container mySlides">
+	<img src="images/webshop_flamore.jpg" alt="voorbeeld vivikaartje flamore" style="width:100%;margin-bottom:-6px">
+	</div>
+
+	<div class="w3-display-container mySlides">
+ 	<img src="images/webshop_sneeuwman-knuffel.jpg" alt="voorbeeld vivikaartje sneeuwman knuffel" style="width:100%;margin-bottom:-6px">
+	</div>
+
+	<div class="w3-display-container mySlides">
+	<img src="images/webshop_meisjeindenacht.jpg" alt="voorbeeld vivikaartje meisje in de nacht" style="width:100%;margin-bottom:-6px">
+	</div>
+
+	<div class="w3-display-container mySlides">
+	<img src="images/webshop_zaloese.jpg" alt="voorbeeld vivikaartje Zaloese" style="width:100%;margin-bottom:-6px">
+	</div>
+
+	<div class="w3-display-container mySlides">
+	<img src="images/webshop_meisjemetkat.jpg" alt="voorbeeld meisje met kat" style="width:100%;margin-bottom:-6px">
+	</div>
+
+	<div class="w3-display-container mySlides">
+	<img src="images/webshop_sterkte.jpg" alt="voorbeeld vivikaartje sterkte" style="width:100%;margin-bottom:-6px">
+	</div>
+
+</div>
+
+<div class="w3-container w3-content" style="max-width:900px; padding:20px 16px 20px 16px;">
+	<div class="w3-row-padding w3-section">
+
+		<div class="w3-col s3">
+		<img class="demo w3-opacity w3-hover-opacity-off" src="images/webshop_varkenenvogel.jpg" alt="vivikaartje varken en vogel" style="width:90%;cursor:pointer" onclick="currentDiv(1)" title="varken en vogel">
+		</div>
+
+		<div class="w3-col s3">
+		<img class="demo w3-opacity w3-hover-opacity-off" src="images/webshop_lammetjes.jpg" alt="vivikaartje lammetjes" style="width:90%;cursor:pointer" onclick="currentDiv(2)" title="lammetjes">
+    		</div>
+
+    		<div class="w3-col s3">
+     		<img class="demo w3-opacity w3-hover-opacity-off" src="images/webshop_flamore.jpg" alt="vivikaartje flamore" style="width:90%;cursor:pointer" onclick="currentDiv(3)" title="flamore">
+		</div>
+
+		<div class="w3-col s3">
+		<img class="demo w3-opacity w3-hover-opacity-off" src="images/webshop_sneeuwman-knuffel.jpg" alt="vivikaartje sneeuwman knuffel" style="width:90%;cursor:pointer" onclick="currentDiv(4)" title="sneeuwman knuffel">
+		</div>
+
+		<div class="w3-col s3">
+		<img class="demo w3-opacity w3-hover-opacity-off" src="images/webshop_meisjeindenacht.jpg" alt="vivikaartje meisje in de nacht" style="width:90%;cursor:pointer" onclick="currentDiv(5)" title="meisje in de nacht">
+		</div>
+
+		<div class="w3-col s3">
+		<img class="demo w3-opacity w3-hover-opacity-off" src="images/webshop_zaloese.jpg" alt="vivikaartje zaloese" style="width:90%;cursor:pointer" onclick="currentDiv(6)" title="zaloese">
+		</div>
+
+		<div class="w3-col s3">
+		<img class="demo w3-opacity w3-hover-opacity-off" src="images/webshop_meisjemetkat.jpg" alt="vivikaartje meisje met de kat" style="width:90%;cursor:pointer" onclick="currentDiv(7)" title="meisje met kat">
+		</div>
+
+		<div class="w3-col s3">
+ 		<img class="demo w3-opacity w3-hover-opacity-off" src="images/webshop_sterkte.jpg" alt="vivikaartje sterkte" style="width:90%;cursor:pointer" onclick="currentDiv(8)" title="meisje met kat">
+		</div>
+	</div>
+</div>
+
+<div class="w3-container w3-content" style="max-width:900px; padding:80px 16px 20px 16px;">
+	<div class="w3-center">
+  	<p>Zie je iets leuk of wil je mij en mijn kaartjes graag ontmoeten?<br>
+	Neem dan contact op via <b>viviweyers@gmail.com</b> of hou de <a href="index.html#agenda"><b>agenda</b></a> in de gaten!<br> Tot binnenkort! <br>
+	Vele groetjes, vivi</p> 
+	</div>
+</div>
+	
+</body>
+
+<!-- Footer -->
+<footer>
+<div class="bgimg-2 w3-container w3-padding-32">
+	<div class="w3-row-padding">
+		<div class="w3-third">
+			<h3 id="contact">Contact</h3>
+			<p>Heb je een vraag, opdracht of wil je graag samenwerken? Stuur een mailtje naar</p>
+			<p>viviweyers@gmail.com</p>
+			<!--<p><a href="algemene voorwaarden.html" class="w3-hover-opacity">Algemene voorwaarden</a></p>-->
+		</div>
+  	
+		<div class="w3-third">
+      		<h3>In de kijker</h3>
+  			<ul class="w3-ul ">
+			
+				<li class="w3-padding-16 w3-hover-opacity w3-hover-shadow">
+				<a href="zomercartoonwandeling.html" target="_self">
+          			<img src="images/indekijker-2023zomercartoonwandeling.jpg" alt="picto zomercartoonwandeling 2023" class="w3-left w3-margin-right " style="width:50px">
+          			<span class="w3-large">Zomercartoonwandeling</span><br>
+          			<span>Genieten van cultuur en humor. </span>
+         			</a>
+				</li> 
+	 		
+
+				<li class="w3-padding-16 w3-hover-opacity w3-hover-shadow">
+				<a href="webshop.html" target="_self">
+	 			<img src="images/indekijker-webshop.jpg" alt="picto webshop" class="w3-left w3-margin-right " style="width:50px">
+          			<span class="w3-large">Webshop</span><br>
+          			<span>Ik sta te popelen... coming soon!</span>
+				</a>         		
+				</li> 
+	     		</ul>
+    		</div>
+
+    		<div class="w3-third">
+      		<h3>Projecten uitgelicht</h3>
+      		<p><a href="project-oeros.html"><span class="w3-tag vivipink w3-small w3-margin-bottom">Oeros</span></a><!--<a href="project-voedselbos.html"><span class="w3-tag vivipink w3-small w3-margin-bottom">Het voedselbos</span></a>-->
+ 		</p>
+   		</div>
+	</div>
+</div>
+
+<div class="w3-container w3-center w3-padding-16 w3-small">
+	<p>Alle creatieve realisatie zijn auteursrechtelijk beschermd. De creaties mogen niet zonder toelating gedownload en gereproduceerd worden. Inbreuken kunnen gerechtelijk vervolgd worden.<br>
+	Copyright Vivi Weyers - 2023</p>
+</div>
+
+</footer>
+
+
+
+<script>
+
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+}
+</script>
+
+
+
+</html>

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+<title>Vivi Weyers - portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Literata">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/viviweyers.css">
+</head>
+
+<body class="w3-white w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="bgimg-1 w3-sidebar w3-collapse w3-text-vividarkred w3-card-4 vivi-border-left vivi-border-right" style="z-index:3;width:350px;" id="mySidebar"><br>
+	<div class="w3-container w3-center">
+		<a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-padding w3-light-grey" title="close menu">
+		<i class="fa fa-remove"></i>
+   		</a>
+
+   		<img src="images/logo_viviweyers.png" alt="logo vivi weyers" style="width:90%;" class="w3-round"><br>
+    		<h4><b>VIVI weyers</b></h4>
+   		<p class="w3-text-white">illustratie & vivikaartjes</p>
+  	</div>
+
+  	<div class="w3-bar-block w3-center">
+		<a href="index.html#about" onclick="w3_close()" class="w3-bar-item vivi-button w3-padding w3-hover-opacity">OVER VIVI</a>     
+		<a href="index.html#watikdoe" onclick="w3_close()" class="w3-bar-item vivi-button w3-padding w3-hover-opacity">WAT IK DOE</a> 
+		<a href="portfolio.html" onclick="w3_close()" class="w3-bar-item vivi-button w3-padding w3-hover-opacity">PORTFOLIO</a> 
+		<a href="index.html#samenwerken" onclick="w3_close()" class="w3-bar-item vivi-button w3-padding w3-hover-opacity">SAMENWERKEN</a>
+		<a href="index.html#agenda" onclick="w3_close()" class="w3-bar-item vivi-button w3-padding w3-hover-opacity">AGENDA</a>
+		<a href="webshop.html" target="_blank" onclick="w3_close()" class="w3-bar-item vivi-button w3-padding w3-hover-opacity">SHOPPEN</a> 
+        	<a href="#contact" onclick="w3_close()" class="w3-bar-item vivi-button w3-padding w3-hover-opacity">CONTACT</a>
+  	</div>
+
+  	<div class="w3-panel w3-xlarge w3-center">
+  		<a href="https://www.facebook.com/vivipuria" target="_blank"><i class="fa fa-facebook-official w3-text-white w3-hover-opacity"></i></a>
+		<a href="https://www.instagram.com/viviweyers/" target="_blank"> <i class="fa fa-instagram w3-text-white w3-hover-opacity"></i></a>
+  	</div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- PAGE CONTENT -->
+
+<!-- Header -->
+	<header id="about">
+	<a href="#"><img src="images/logo_viviweyers.png" alt="logo vivi weyers" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+	<span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    		<div class="w3-container">
+    		</div>
+  	</header>
+
+<!-- Portfolio -->
+<div class="w3-main" style="margin-left:350px">
+	<!-- Rij 1 -->
+ 	<div class="w3-row-padding">
+    		<div class="w3-col 13 m12 w3-margin-bottom ">
+     			<div class="w3-display-container w3-card">
+        			<div class="w3-display-bottomleft w3-white w3-opacity w3-padding w3-small">vivikaartjes</div>
+        			<img src="images/portfolio-vivikaartjes_zen.jpg" alt="vivikaartjes zen" style="width:100%;cursor:pointer" onclick="onClick(this)">
+      			</div>
+    			
+  		</div>
+	</div>
+
+	<!-- Rij 2 -->
+	<div class="w3-row-padding">
+		<div class="w3-col l3 m6 w3-margin-bottom ">
+      			<div class="w3-display-container w3-card">
+        			<div class="w3-display-bottomleft w3-white w3-opacity w3-padding w3-small">illustratie</div>
+       				<img src="images/portfolio-illustratie_vleermuis.jpg" alt="illustratie vleermuis" style="width:100%;cursor:pointer" onclick="onClick(this)">
+      			</div>
+    		</div>
+	
+    
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container w3-card">
+ 				<div class="w3-display-bottomleft w3-white w3-opacity w3-padding w3-small">illustratie uit kinderboek</div>
+        			<img src="images/portfolio-illustratie_egel.jpg" alt="illustratie egel uit kinderboek" style="width:100%;cursor:pointer" onclick="onClick(this)">
+      			</div>
+    		</div>
+
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container w3-card">
+ 				<div class="w3-display-bottomleft w3-white w3-opacity w3-padding w3-small">illustratie</div>
+ 				<img src="images/portfolio-illustratie_flowermanandcatwoman.jpg" alt="illustratie" style="width:100%;cursor:pointer" onclick="onClick(this)">
+ 			</div>
+		</div>
+
+		<div class="w3-col l3 m6 w3-margin-bottom ">
+ 			<div class="w3-display-container w3-card">
+				<div class="w3-display-bottomleft w3-white w3-opacity w3-padding w3-small">geboortekaartje</div>
+				<img src="images/portfolio-geboorte_babykat.jpg" alt="geboortekaartje baby met kat" style="width:100%;cursor:pointer" onclick="onClick(this)">
+ 			</div>
+ 		</div>
+	</div>
+ 
+
+
+	<!-- Rij 3 -->
+ 	<div class="w3-row-padding">
+		<div class="w3-col 3 m6 w3-margin-bottom ">
+			<div class="w3-display-container w3-card">
+				<div class="w3-display-bottomleft w3-white w3-opacity w3-padding w3-small">externe opdracht</div>
+				<img src="images/portfolio-extern_dog.jpg" alt="externe opdracht hond" style="width:100%;cursor:pointer" onclick="onClick(this)">
+			</div>
+		</div>
+
+		<div class="w3-col 3 m6 w3-margin-bottom">
+			<div class="w3-display-container w3-card">
+        			<div class="w3-display-bottomleft w3-white w3-opacity w3-padding w3-small">geboortekaartje</div>
+       				<img src="images/portfolio-geboorte_ida.jpg" alt="geboortekaartje ida" style="width:100%;cursor:pointer" onclick="onClick(this)">
+      			</div>
+    		</div>
+	</div>
+
+
+
+	<!-- Rij 4 -->
+	<div class="w3-row-padding">
+   		 <div class="w3-col 3 m4 w3-margin-bottom ">
+      			<div class="w3-display-container w3-card">
+       				 <div class="w3-display-bottomleft w3-white w3-opacity w3-padding w3-small">extern project</div>
+        			<img src="images/portfolio-extern_gefeliciteerd.jpg" alt="illustratie gefeliciteerd" style="width:100%;cursor:pointer" onclick="onClick(this)">
+      			</div>
+    		</div>
+
+    		<div class="w3-col 3 m4 w3-margin-bottom">
+      			<div class="w3-display-container w3-card">
+        			<div class="w3-display-bottomleft w3-white w3-opacity w3-padding w3-small">illustratie</div>
+        			<img src="images/portfolio-illustratie_zeezicht.jpg" alt="illustratie zeezicht" style="width:100%;cursor:pointer" onclick="onClick(this)">
+      			</div>
+    		</div>
+
+   		<div class="w3-col 3 m4 w3-margin-bottom">
+      			<div class="w3-display-container w3-card">
+        			<div class="w3-display-bottomleft w3-white w3-opacity w3-padding w3-small">illustratie</div>
+       				<img src="images/portfolio-illustratie_kat.jpg" alt="illustratie kat" style="width:100%;cursor:pointer" onclick="onClick(this)">
+      			</div>
+    		</div>
+   
+  	</div>
+
+
+	<!--Rij 5 -->
+	<div class="w3-row-padding">
+    		<div class="w3-col 13 m12 w3-margin-bottom ">
+     			<div class="w3-display-container w3-card">
+        			<div class="w3-display-bottomleft w3-white w3-opacity w3-padding w3-small">geboortekaartje</div>
+       				<img src="images/portfolio-geboorte_amke.jpg" alt="geboortekaartje Amke" style="width:100%;cursor:pointer" onclick="onClick(this)">
+      			</div>
+    		</div>
+	</div>
+
+ 	<!-- Rij 6 -->
+	<div class="w3-row-padding">
+   		<div class="w3-col 3 m4 w3-margin-bottom ">
+     			<div class="w3-display-container w3-card"> 
+        			<div class="w3-display-bottomleft w3-white w3-opacity w3-padding w3-small">illustratie</div>
+       				<img src="images/portfolio-illustratie_gouda.jpg" alt="illustratie portret van Jacoba in gouda" style="width:100%;cursor:pointer" onclick="onClick(this)">
+      			</div>
+		</div>
+
+   		<div class="w3-col 3 m4 w3-margin-bottom">
+      			<div class="w3-display-container w3-card">
+       				<div class="w3-display-bottomleft w3-white w3-opacity w3-padding w3-small">illustratie</div>
+       				<img src="images/portfolio-illustratie_giraf.jpg" alt="illustratie giraf" style="width:100%;cursor:pointer" onclick="onClick(this)">
+     			 </div>
+   		</div>
+
+    		<div class="w3-col 3 m4 w3-margin-bottom">
+			<div class="w3-display-container w3-card">
+     				<div class="w3-display-bottomleft w3-white w3-opacity w3-padding w3-small">extern project</div>
+     	   			<img src="images/portfolio-illustratie_nakedandhairy.jpg" alt="illustratie naaktkat en rosse kat" style="width:100%;cursor:pointer" onclick="onClick(this)">
+      			</div>
+   
+  		</div>
+	</div>
+
+
+	<!--Rij 7-->
+ 	<div class="w3-row-padding">
+    		<div class="w3-col 13 m12 w3-margin-bottom ">
+      			<div class="w3-display-container w3-card">
+       				<div class="w3-display-bottomleft w3-white w3-opacity w3-padding w3-small">extern project - kerstkaart Torhout</div>
+       				<img src="images/portfolio-extern_kerstkaarttorhout.jpg" alt="extern project kerstkaart torhout" style="width:100%;cursor:pointer" onclick="onClick(this)">
+     			 </div>
+    		</div>
+	</div>
+</div>
+
+
+
+<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+	<span class="w3-button vividarkred w3-xlarge w3-display-topright">&times;</span>
+	<div class="w3-modal-content w3-animate-zoom">
+	<img id="img01" class="w3-modal-content w3-middle" style="width:100%" alt="close">
+	</div>
+</div>
+
+
+<!-- Footer -->
+<footer>
+	<div class="w3-main" style="margin-left:350px" >
+		<div class="bgimg-2 w3-container w3-padding-32">
+			<div class="w3-third">
+				<h3 id="contact">Contact</h3>
+				<p>Heb je een vraag, opdracht of wil je graag samenwerken? Stuur een mailtje naar</p>
+				<p>viviweyers@gmail.com</p>
+				<!--<p><a href="algemene voorwaarden.html" class="w3-hover-opacity">Algemene voorwaarden</a></p>-->
+			</div>
+  	
+			<div class="w3-third">
+      			<h3>In de kijker</h3>
+  			<ul class="w3-ul ">
+			
+				<li class="w3-padding-16 w3-hover-opacity w3-hover-shadow">
+				<a href="zomercartoonwandeling.html" target="_self">
+          			<img src="images/indekijker-2023zomercartoonwandeling.jpg" alt="picto zomercartoonwandeling 2023" class="w3-left w3-margin-right " style="width:50px">
+          			<span class="w3-large">Zomercartoonwandeling</span><br>
+          			<span>Genieten van cultuur en humor. </span>
+         			</a>
+				</li> 
+	 		
+
+				<li class="w3-padding-16 w3-hover-opacity w3-hover-shadow">
+				<a href="webshop.html" target="_blanc">
+	 			<img src="images/indekijker-webshop.jpg" alt="picto webshop" class="w3-left w3-margin-right " style="width:50px">
+          			<span class="w3-large">Webshop</span><br>
+          			<span>Ik sta te popelen... coming soon!</span>
+				</a>         		
+				</li> 
+	     		</ul>
+    			</div>
+
+    			<div class="w3-third">
+      			<h3>Projecten uitgelicht</h3>
+      			<p><a href="project-oeros.html"><span class="w3-tag vivipink w3-small w3-margin-bottom">Oeros</span></a><!--<a href="project-voedselbos.html"><span class="w3-tag vivipink w3-small w3-margin-bottom">Het voedselbos</span></a>-->
+ 			</p>
+   			</div>
+		</div>
+
+		<div class="w3-container w3-center w3-padding-16 w3-small">
+		<p>Alle creatieve realisatie zijn auteursrechtelijk beschermd. De creaties mogen niet zonder toelating gedownload en gereproduceerd worden. Inbreuken kunnen gerechtelijk vervolgd worden.<br>
+		Copyright Vivi Weyers - 2023</p>
+		</div>
+	</div>
+</footer>
+
+
+<!-- End page content -->
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+
+
+<script>
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
+</script>
+
+
+
+</body>
+</html>

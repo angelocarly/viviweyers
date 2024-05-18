@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Literata", sans-serif;}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+	}
+
+
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image:url(../images/bg_aquarel2.jpg);
+    min-height: 100%;
+}
+
+.bgimg-2 {
+    background-position:center;
+    background-size: cover;
+    background-image: url("../images/footer 1200X300.jpg");
+    min-height: 80%;
+}
+
+
+.vivi-button:hover{
+    background-color:#fff;!important
+    color:#485b0b;!important
+    width:100%;
+    text-align:left;
+    padding:8px 16px;
+    white-space:normal;}
+
+h4{color:#79282b;}
+
+.vivi-border-left {border-left:3px solid #fff!important}
+.vivi-border-right{border-right:3px solid #fff!important}
+
+
+.vividarkred
+{color:#fff;background-color:#79282b;}
+
+.vivibeige
+{color:#79282b;background-color:#F2F2E9;}
+
+.vivipink
+{color:#79282b;background-color:#D5A0AE;}#EFC5C6;
+
+.vivi-hoverable tbody tr:hover,.w3-ul.vivi-hoverable li:hover{
+    background-color:#fff;
+	color:#79282b;}
+ 
+.brown
+{color:#fff;background-color:#1e140c;}
+
+.green-gradation1
+{color:#fff;background-color:#6c8811;}
+.green-gradation2
+{color:#fff;background-color:#5a710e;}
+.green-gradation3
+{color:#fff;background-color:#556A0D;}
+.green-gradation4
+{color:#fff;background-color:#485b0b;}
+
+.w3-text-vividarkred,.w3-hover-text-vividarkred:hover{
+    color:#79282b !important}
+
+.w3-text-vivibeige,.w3-hover-text-vivibeige:hover{
+    color:#F2F2E9 !important}
+	
+.mySlides {display:none;}
+.w3-left, .w3-right, .w3-badge {cursor:pointer;}
+.w3-badge {height:13px;width:13px;padding:0;}
+
+ /* unvisited link */
+a:link {
+  text-decoration: none;;
+}
+
+/* visited link */
+a:visited {
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  text-decoration: none;
+} 
+
+.thankyou{ 
+text-shadow: 2px 2px 4px #485b0b;}
